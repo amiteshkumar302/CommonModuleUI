@@ -1,0 +1,98 @@
+@media only screen and (max-width: 575px) {
+    .single-timeline-area {
+        padding-left: 100px;
+    }
+  }
+  .single-timeline-area .timeline-date {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  @media only screen and (max-width: 575px) {
+    .single-timeline-area .timeline-date {
+        width: 100px;
+    }
+  }
+@media screen and (min-width: 768px) {
+    body {
+        margin: calc(var(--header-height) + 1rem) 0 0 0;
+        padding-left: calc(var(--nav-width) + 2rem);
+    }
+    .header {
+        height: calc(var(--header-height) + 1rem);
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
+    }
+    .header_img {
+        width: 40px;
+        height: 40px;
+    }
+    .header_img img {
+        width: 45px;
+    }
+    .l-navbar {
+        left: 0;
+        padding: 0.5rem 1rem 0 0;
+    }
+    .l-navbar:hover {
+        left: 0;
+        padding: 0.5rem 1rem 0 0;
+        width: calc(var(--nav-width) + 156px);
+    }
+    .l-navbar .nav_logo-name{
+        display: none;
+    }
+    .l-navbar:hover .nav_logo-name{
+        display: block;
+    }
+    .l-navbar:hover .logo-icon{
+        display: none !important;
+    }
+    .l-navbar.show .nav_logo-name{
+        display: block;
+    }
+    
+    #nav-bar.show {
+        width: calc(var(--nav-width) + 156px);
+    }
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 188px);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .l-navbar:hover {
+        left: 0;
+        padding: 0.5rem 1rem 0 0;
+        width: calc(var(--nav-width) + 156px);
+    }
+    #nav-bar.show {
+        width: calc(var(--nav-width) + 156px);
+    }
+    .body-pd .header{
+        padding-left: calc(var(--nav-width) + 188px);
+    }
+   
+    
+}
+@media (max-width:480px){
+    footer .copyright-text {
+        margin-left: 0rem;
+    }
+    .header-search{
+        display: none;
+    }
+}
